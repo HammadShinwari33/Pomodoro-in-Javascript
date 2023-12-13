@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(130deg, rgb(39, 173, 218), aqua, rgb(15, 179, 255), aqua, rgb(15, 147, 255));
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#minutes{
+    font-size: 40px;
+    font-weight: 600;
+}
+#seconds{
+    font-size: 40px;
+    font-weight: 600;
+}
+#start{
+    padding: 10px 18px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    background: rgb(28, 243, 28);
+    border: 2px solid rgb(28, 243, 28);
+    cursor: pointer;
+}
+#pause{
+    padding: 10px 18px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    border: 1px solid rgb(233, 227, 227);
+    cursor: pointer;
+}
+#reset{
+    padding: 10px 18px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    border: 2px solid red;
+    background: red;
+    cursor: pointer;
+}
+.timer {
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.controls {
+    padding-top: 30px;
+    gap: 20px;
+}
+.settings {
+    padding-top: 20px;
+}
+.set{
+    padding: 10px 18px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    background: rgb(124, 124, 100);
+    cursor: pointer;
+}
+.setmin{
+    font-size: 22px;
+    font-weight: 600;
+}
+.setinp{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(31, 28, 28);
+    color: #fff;
+}
